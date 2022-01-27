@@ -1,0 +1,66 @@
+html {
+    text-align: center;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    min-height: 95vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cae6cc;
+}
+.container {
+    background-color: #f0e7e9;
+    border: 10px solid rgb(131, 125, 125);
+    border-radius: 4%;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    gap: 4px;
+    padding: 5px;
+}
+
+.display {
+    grid-column: 1 / -1;
+    background-color: #dddcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 5.5em;
+    font-weight: initial;
+    text-shadow: 1.3px 1.3px #383838;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+button {
+    margin: 1px;
+    border-radius: 50%;
+    border: none;
+    font-weight: initial;
+    font-size: 2em;
+    font-family: monospace;
+    color: black;
+}
+
+.operand, .decimal, .backspace {
+    background-color: #dddcdc;
+}
+
+.operator, .percent, .bracket{
+    background-color: #77c1e4;
+}
+
+.clear {
+    background-color: #3ac23a;
+}
+
+.equal {
+    background-color: #4c9abe;
+}
+
