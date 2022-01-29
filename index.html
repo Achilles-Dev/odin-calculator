@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" data-key="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Calculator</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" >
 </head>
 <body>
-    <div class="container">
-        <div class="display">0</div>
-        <button class="clear">AC</button>
-        <button class="bracket">()</button>
-        <button class="percent">%</button>
-        <button class="operator" data-set="111">&divide</button>
-        <button class="operand">7</button>
-        <button class="operand">8</button>
-        <button class="operand">9</button>
-        <button class="operator" data-set="106">&times</button>
-        <button class="operand">4</button>
-        <button class="operand">5</button>
-        <button class="operand">6</button>
-        <button class="operator" data-set="109">-</button>
-        <button class="operand">1</button>
-        <button class="operand">2</button>
-        <button class="operand">3</button>
-        <button class="operator" data-set="107">+</button>
-        <button id="zero" class="operand">0</button>
-        <button class="decimal">.</button>
-        <button class="backspace">&larr;</button>
-        <button class="equal">=</button>
+    <div class="container" >
+        <div class="main-display" >
+            <div class="text-display" ></div>
+            <div class="result-display"></div>
+        </div>
+        <button class="clear" data-key="">AC</button>
+        <button class="bracket" data-key="">()</button>
+        <button class="percent" data-key="80">%</button>
+        <button class="operator" data-key="191">÷</button>
+        <button class="number" data-key="55">7</button>
+        <button class="number" data-key="56">8</button>
+        <button class="number" data-key="57">9</button>
+        <button class="operator" data-key="56">x</button>
+        <button class="number" data-key="52">4</button>
+        <button class="number" data-key="53">5</button>
+        <button class="number" data-key="54">6</button>
+        <button class="operator" data-key="173">-</button>
+        <button class="number" data-key="49">1</button>
+        <button class="number" data-key="50">2</button>
+        <button class="number" data-key="51">3</button>
+        <button class="operator" data-key="187">+</button>
+        <button id="zero" class="number" data-key="48">0</button>
+        <button class="decimal" data-key="190">.</button>
+        <button class="backspace" data-key="8">&larr;</button>
+        <button class="equal" data-key="187">=</button>
         
     </div>
 </body>

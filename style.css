@@ -23,7 +23,7 @@ body {
     padding: 5px;
 }
 
-.display {
+.main-display {
     grid-column: 1 / -1;
     background-color: #dddcdc;
     display: flex;
@@ -31,11 +31,16 @@ body {
     justify-content: space-around;
     align-items: flex-end;
     padding: 5px;
-    font-size: 5.5em;
+    font-size: 2.5em;
     font-weight: initial;
     text-shadow: 1.3px 1.3px #383838;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
+    min-height: 115px;
+}
+
+.main-display .result-display {
+    font-size: 2em;
 }
 
 button {
@@ -48,7 +53,7 @@ button {
     color: black;
 }
 
-.operand, .decimal, .backspace {
+.number, .decimal, .backspace {
     background-color: #dddcdc;
 }
 
